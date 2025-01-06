@@ -81,6 +81,8 @@ function ProfilePageClient({
       setIsFollowing(!isFollowing);
     } catch (error) {
       toast.error("Failed to update follow status");
+      console.log(error);
+
     } finally {
       setIsUpdatingFollow(false);
     }
@@ -260,7 +262,7 @@ function ProfilePageClient({
                 <Input
                   name="website"
                   value={editForm.website}
-                  onChange={(e:any) => setEditForm({ ...editForm, website: e.target.value })}
+                  onChange={(e) => setEditForm({ ...editForm, website: e.target.value })}
                   placeholder="Your personal website"
                 />
               </div>
