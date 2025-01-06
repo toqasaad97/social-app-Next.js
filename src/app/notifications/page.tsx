@@ -37,7 +37,8 @@ finally{
   setIsLoading(false)
 }
   }
- })
+  fetchNotifications();
+ } ,[])
 if(isLoading) return <NotificationsSkeleton/>
 return (
   <div className="space-y-4">
