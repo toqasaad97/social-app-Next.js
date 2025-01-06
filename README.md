@@ -22,3 +22,19 @@ A modern social media app built with Next.js, featuring user authentication, pos
 - Error and loading states
 - Optimistic UI updates
 - Database integration with Prisma and Postgres
+- ## setup
+
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/toqasaad97/social-app-Next.js.git
+1. change directory:
+    ```bash
+   cd social-app-Next.js
+    ```
+      ```
+    
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
