@@ -1,7 +1,7 @@
 # social Next.js App 
 A modern social media app built with Next.js, featuring user authentication, posts, notifications, file uploads, and more.
 
-![Live Demo]()
+![Live Demo](https://socil-app-next-js-vm8n.vercel.app/)
 ##  Tech Stack
 
 - **Frontend**: Next.js, Tailwind CSS
@@ -31,9 +31,6 @@ A modern social media app built with Next.js, featuring user authentication, pos
     ```bash
    cd social-app-Next.js
     ```
-      ```
-    
-
 3. Install dependencies:
     ```bash
     npm install
